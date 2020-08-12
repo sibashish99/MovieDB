@@ -1,13 +1,19 @@
 # Movie Search
 
 A single page application for obtaining movie information.
+* watch demo 
+
+```
+https://musicdb-6718b000.web.app/
+```
 
 ## Getting Started
+
 
 * Clone the repository
 
 ```
-https://github.com/KayOhhDee/react-movie-search-app.git
+https://github.com/sibashish99/MovieDB.git
 ```
 
 ### Prerequisites
