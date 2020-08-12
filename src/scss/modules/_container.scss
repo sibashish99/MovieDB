@@ -1,0 +1,70 @@
+.main-container {
+   min-height: 100vh;
+   overflow: hidden;
+   display: block;
+   position: relative;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+
+  @include atMedium {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  @include atSmaller {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  &__relative {
+    position: relative;
+  }
+
+  .placeholder {
+     font-size: 1.2em;
+     color: #bac0bd;
+
+    @include atSmaller {
+      font-size: 1.4em;
+    }
+
+    @include atSmall {
+      font-size: 1.7em;
+    }
+
+    @include atMedium {
+      font-size: 2em;
+    }
+    
+  }
+
+  .flex {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  &__medium {
+    max-width: 976px;
+  }
+
+  &__margin {
+    margin: 2.875rem 0;
+
+    @include atSmall {
+      margin-bottom: 2.875rem;
+
+    }
+  }
+}
+
+
+
